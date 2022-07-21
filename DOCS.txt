@@ -1,0 +1,23 @@
+EXTENSIONS REQUIRED IN VSCODE
+
+PYTHON , DJANGO
+
+CREATING A VIRTUAL ENVIRONMENT
+
+1) python -m venv djvenv
+
+
+2) create django project 
+
+django-admin startproject django_tutorial
+
+3 ) CREATE APP
+
+python manage.py startapp home
+
+4) RUNNING DEV SERVER
+python manage.py runserver
+
+5) How to conntect our app with project
+
+MENTION: THE APP:NAME IN installed_app array of settings.py
